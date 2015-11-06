@@ -24,3 +24,26 @@ read_data <- function() {
   df <- df[rows_for_dates,]
   df
 }
+
+set_default_graphical_parameters <- function() {
+  # Set default device parameters
+  
+  # mfrow
+  # A vector of the form c(nr, nc). Subsequent figures will be drawn in an nr-by-nc 
+  # array on the device by columns (mfcol), or rows (mfrow), respectively.
+  
+  # mar
+  # A numerical vector of the form c(bottom, left, top, right) which gives the 
+  # number of lines of margin to be specified on the four sides of the plot. 
+  # The default is c(5, 4, 4, 2) + 0.1.
+  
+  # oma
+  # A vector of the form c(bottom, left, top, right) giving the size of the 
+  # outer margins in lines of text.
+  
+  # cex
+  # A numerical value giving the amount by which plotting text and symbols should 
+  # be magnified relative to the default. This starts as 1 when a device is opened,
+  # and is reset when the layout is changed, e.g. by setting mfrow.
+  par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1), oma = c(0, 0, 0, 0), cex=1.0)
+}

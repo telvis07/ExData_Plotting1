@@ -12,8 +12,9 @@ plot_1 <- function(df) {
   plot.new()
   
   # reset the margins
-  par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1), oma = c(0, 0, 0, 0))
+  set_default_graphical_parameters()
   
+  # make plot
   hist(df$Global_active_power, col="red", xlab = "Global Active Power (kilowatts)", main="Global Active Power")
   dev.copy(png, width = 480, height = 480, units = "px", "plot1.png")
   dev.off()

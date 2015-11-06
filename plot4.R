@@ -27,5 +27,5 @@ plot_4 <- function(df) {
   })
 
   # reset the margins
-  par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1), oma = c(0, 0, 0, 0))
+  par(mfrow = c(1, 1), mar = c(5.1, 4.1, 4.1, 2.1), oma = c(0, 0, 0, 0), cex = 1.0)
 }

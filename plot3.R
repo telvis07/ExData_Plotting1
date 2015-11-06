@@ -9,8 +9,7 @@ source("read_data.R")
 
 plot_3 <- function(df) {
   # Submeters 1,2,3 vs time
-  plot.new()
-  
+
   # reset the margins
   set_default_graphical_parameters()
   

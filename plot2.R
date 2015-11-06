@@ -9,9 +9,7 @@ source("read_data.R")
 
 plot_2 <- function(df) {
   # Global Active power vs time
-  # Histogram of 'Global Active Power'
-  plot.new()
-  
+
   # reset the margins
   set_default_graphical_parameters()
   

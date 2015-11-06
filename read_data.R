@@ -27,6 +27,7 @@ read_data <- function() {
 
 set_default_graphical_parameters <- function() {
   # Set default device parameters
+  plot.new()
   
   # mfrow
   # A vector of the form c(nr, nc). Subsequent figures will be drawn in an nr-by-nc 

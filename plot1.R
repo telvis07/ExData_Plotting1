@@ -9,7 +9,6 @@ source("read_data.R")
 
 plot_1 <- function(df) {
   # Histogram of 'Global Active Power'
-  plot.new()
   
   # reset the margins
   set_default_graphical_parameters()

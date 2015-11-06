@@ -1,4 +1,4 @@
-# script to read and filter the project data. I 'sourced' by the other files.
+# script to read and filter the project data. This script is 'sourced' by the other plot scripts.
 
 read_data <- function() {
   
